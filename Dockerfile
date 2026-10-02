@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17.0.5_8-jdk-focal
+FROM eclipse-temurin:21.0.12_8-jdk-noble
 
 COPY target/cake-service-0.0.1-SNAPSHOT.jar cake-service.jar
 
