@@ -2,7 +2,7 @@
 
 ## Baseline
 
-This repository currently targets **Java 17**. The Maven Enforcer rule rejects JDKs outside the Java 17 range and Maven versions outside the checked-in wrapper baseline. Do not change `java.version`, the Enforcer ranges, CI Java version, or Docker Java image independently. A Java 21 migration must update and validate those four places together.
+This repository targets **Java 21**. The Maven Enforcer rule rejects JDKs outside the Java 21 range and Maven versions outside the checked-in wrapper baseline. Do not change `java.version`, the Enforcer ranges, CI Java version, or Docker Java image independently. Any future JDK migration must update and validate those four places together.
 
 Use the checked-in Maven Wrapper. It pins Maven 3.9.11 and removes the need for a system Maven installation.
 

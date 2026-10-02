@@ -23,3 +23,7 @@ replay_pid*
 
 # Local notes
 todo.txt
+
+# Migration validation evidence (generated locally; not committed)
+# The retained reports in validation/*.md describe how to regenerate it.
+validation/evidence/

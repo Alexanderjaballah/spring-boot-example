@@ -4,7 +4,7 @@
 
 ## Tech stack
 
-* Java 17
+* Java 21
 * Spring boot - CRUD operations for managing cakes; application exposed on port `8081`
 * Spring boot security - basic authentication applied to all APIs
 * H2 database - for production and test code
@@ -23,7 +23,7 @@
 
 In order to build the project, you will have to install the following:
 
-* Java 17
+* Java 21
 * Docker (optional)
 * This project includes **Lombok Annotations**, this means that in order for your IDE to correctly compile your project you'll need to add the Lombok plugin to your IDE and `Enable annotation processing` (for IntelliJ IDEA).
 * Maven is provided by the checked-in Maven Wrapper. A separate Maven installation is not required.
